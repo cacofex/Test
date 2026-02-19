@@ -9,6 +9,10 @@
 -- LinkToInstance fixed by Elttob.
 -- Cleanup edge cases fixed by codesenseAye.
 
+export type Jaitor = {
+	Cleanup: FunctionalTest
+}
+
 local FastDefer = require(script.FastDefer)
 local Promise = require(script.Promise)
 type Promise<T...> = Promise.TypedPromise<T...>
