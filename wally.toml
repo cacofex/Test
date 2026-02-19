@@ -1,0 +1,14 @@
+[package]
+name = "user/test"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+
+hitbox = "breezy1214/hitbox@4.1.2"
+maid = "coiorevent8/maid@3.4.0"
+janitor = "kartzrbx/janitor@1.1.0"
+signal = "neonifieddev/signal@0.0.3"
+zoneplus = "essentiallyblue/zoneplus@3.2.2"
+profileservice = "surnautica/profileservice@1.0.0"
